@@ -1,7 +1,9 @@
 <template>
 	<div id="app">
-		<img alt="Vue logo" src="https://vuejs.org/images/logo.png">
 		<HelloWorld msg="Welcome to Your Vue.js App" />
+		<div class="title">
+			<p>title</p>
+		</div>
 	</div>
 </template>
 
@@ -24,5 +26,11 @@ export default {
 		text-align: center;
 		color: #2c3e50;
 		margin-top: 60px;
+	}
+
+	.title {
+		width: 60px;
+		height: 60px;
+		color: red;
 	}
 </style>
